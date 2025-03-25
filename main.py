@@ -4,8 +4,7 @@ from utils.Ball import Ball
 from utils.Paddle import Paddle
 from utils.collision import handle_collision
 from utils.constants import WIDTH, HEIGHT, LEFT_OFFSET, RIGHT_OFFSET
-from utils.Score imp
-ort Score
+from utils.Score import Score
 
 # Initialize video capture
 vid = cv2.VideoCapture(0)
